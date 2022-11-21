@@ -1,0 +1,386 @@
+@import url('./fonts.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  scroll-behavior: smooth;
+}
+
+body {
+  background:#f2f2f2;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+section {
+  position: relative;
+  padding: 100px;
+}
+
+.header {
+  z-index: 10000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 80px;
+}
+
+.header .logo {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.header .logo h2 {
+  font-family: 'Yellowtail';
+}
+
+.header .toggle img {
+  max-width: 30px;
+}
+
+.banner {
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 600px;
+  z-index: 1;
+  background: linear-gradient(to top, , transparent);
+}
+
+.banner .content {
+  position: relative;
+  max-width: 900px;
+  z-index: 1;
+  text-align: center;
+}
+
+.banner .content p {
+  margin-top: 35px;
+  color: white;
+  font-size: 1em;
+  line-height: 4vh;
+}
+
+.banner .content h2 {
+  font-family: 'Reey';
+  font-size: 2.5em;
+  font-weight: normal;
+  letter-spacing: 5px;
+  color: white;
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  margin-top: 40px;
+  padding: 10px 30px;
+  background: white;
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  transition: .4s ease-in-out;
+  -webkit-transition: .4s ease-in-out;
+  -moz-transition: .4s ease-in-out;
+  -ms-transition: .4s ease-in-out;
+  -o-transition: .4s ease-in-out;
+}
+
+.btn:hover {
+  color: #333;
+  background-color: #ccc;
+}
+
+.fit-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: .75;
+}
+
+.about {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .content__box {
+  max-width: 50%;
+  width: 50%;
+  text-align: end;
+  padding-right: 50px;
+}
+
+.title-text {
+  font-family: 'Reey';
+  font-weight: normal;
+  font-size: 2.05em;
+  letter-spacing: 5px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.text {
+  color: white;
+  font-size: 1em;
+  line-height: 3.5vh;
+}
+
+.about .img__box {
+  position: relative;
+  min-width: 55%;
+  width: 55%;
+  min-height: 550px;
+}
+
+.banner2 {
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 600px;
+  z-index: 1;
+  background: linear-gradient(to bottom, #111, transparent);
+}
+
+.banner2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  z-index: 1;
+  background: linear-gradient(to top, #222, transparent);
+}
+
+.banner2 .content2 {
+  position: relative;
+  max-width: 900px;
+  z-index: 2;
+  text-align: center;
+}
+
+.banner2 .content2 h2 {
+  font-family: 'Reey';
+  font-size: 2.5em;
+  font-weight: normal;
+  letter-spacing: 5px;
+  color: white;
+  line-height: 25vh;
+}
+
+.banner2 .content2 span {
+  font-family: 'Reey';
+  font-size: 1.25em;
+  letter-spacing: 10px;
+}
+
+.destination {
+  text-align: center;
+}
+
+.destination .content {
+  text-align: center;
+}
+
+.destination .destination__list {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.destination .destination__list .box {
+  position: relative;
+  min-width: 395px;
+  height: 480px;
+  background: #191919;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  margin: 80px 20px;
+}
+
+.destination .destination__list:hover .box {
+  opacity: 0.2;
+}
+.destination .destination__list .box:hover {
+  opacity: 1;
+}
+
+.destination .destination__list .box .img__box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.destination .destination__list .box .content {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.destination .destination__list .box .content h2 {
+  margin: 50px 0 10px 0;
+  font-weight: normal;
+  font-family: 'Reey';
+  font-size: 1.2rem;
+  line-height: 2.5em;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.destination .destination__list .box .content h2 span {
+  font-weight: normal;
+  font-size: .7em;
+  opacity: .5;
+}
+
+.destination-btn {
+}
+
+.banner3::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 600px;
+  z-index: 1;
+  background: linear-gradient(to bottom, #111, transparent);
+}
+
+.banner3::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  z-index: 1;
+  background: linear-gradient(to top, #111, transparent);
+}
+
+.banner3 {
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner3 .content3 {
+  position: relative;
+  max-width: 900px;
+  z-index: 2;
+  text-align: center;
+}
+
+.banner3 .content3 h2 {
+  font-family: 'Reey';
+  font-size: 4.5em;
+  font-weight: normal;
+  letter-spacing: 5px;
+  color: white;
+  line-height: 25vh;
+}
+
+.footer {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer ul {
+  margin-top: 40px;
+  position: relative;
+  display: flex;
+}
+
+.footer ul li {
+  list-style: none;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  margin: 0 50px;
+}
+
+.footer ul li a img {
+  filter: invert(1);
+  -webkit-filter: invert(1);
+  max-width: 40px;
+}
+
+.copyright-text {
+  margin-top: 40px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 18px;
+  font-family: 'Kaushan Script';
+  letter-spacing: 2px;
+  color: #aaa;
+}
+
+.copyright-text a {
+  color: #fff;
+  font-family: 'Kaushan Script';
+  text-decoration: none;
+  transition: .3s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -ms-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+}
+
+.copyright-text a:hover {
+  color: #ddd;
+}

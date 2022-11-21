@@ -1,0 +1,144 @@
+.container{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 90px;
+}
+
+/* bagian kiri */
+.kiri{
+    background-color:white ;
+    width: 40%;
+    padding-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px grey;
+}
+.kiri .profil{
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+}
+.kiri .profil img{
+    margin: auto;
+}
+.inputan{
+    width: 95%;
+    margin: auto;
+    padding:10px;
+}
+input{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.perusahaan{
+    display: flex;
+    justify-content: space-between;
+}
+.perusahaan .kiri_input{
+    color:black;
+    width: 50%;
+}
+.perusahaan .kanan_input{
+    color:black;
+    background-color: transparent;
+}
+/* bagian kanan */
+
+.kanan{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.kanan_atas{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 20px;
+}
+.judul {
+    width: 100%;
+    border-bottom: 1px solid grey;
+    font-size: 28px;
+}
+.judul p{
+    margin: 0 0 10px 0;
+}
+.content-kanan p{
+    font-size: 18px;
+}
+
+.konten_kanan_atas div{
+    margin: 5px;
+}
+.status{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.status_kiri p{
+    font-size: 18px;
+    border: 1px solid black;
+}
+.status_kiri .btn{
+    border: 1px solid black;
+}
+.status_kanan p{
+    font-size: 18px;
+}
+.status_kiri button{
+    font-size: 18px;
+}
+
+
+.status button{
+    width: 200px;
+}
+.kanan_bawah{
+    width: 100%;
+    background-color: white;
+    margin: 30px 0 0 0 ;
+    border-radius: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+@media(max-width: 850px){
+    .container{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .kiri .profil{
+        width: 60%;
+        height: 150px;
+        margin: auto;
+    }
+    .kiri{
+        width: 100%;
+    }
+    .kanan_input{
+        margin-left: 50px;
+    }
+    .kanan{
+        width: 100%;
+        height: 600px;
+        margin-top: 50px;
+        margin-bottom: 150px;
+        background-color: #f2f2f2;
+        margin-top: 100px;
+    }
+    .status button{
+        width: 130px;
+    }
+    .foo{
+        display: none;
+    }
+}

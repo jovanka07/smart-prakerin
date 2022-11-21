@@ -1,0 +1,22 @@
+Cara Menjalankan aplikasi
+1.Download/Instal XAMPP
+2.Jalankan "Apache & MySQL Klik 'start'
+3.Ketik di url localhost://kksi/index.php
+
+JIKA SEBAGAI USER
+1.Daftar akun jika belum punya
+2.Login ke dalam halaman utama
+3.Pilih Perusahaan Yang di inginkan
+
+JIKA SEBAGAI ADMIN
+1.Login pada form admin dengan level "Administrator"
+2.Sesudah login anda dapat Mengkonfirmasi siswa Dan Mengakses seluruh fitur admin
+
+CARA IMPORT database
+1.Klik Export pada database
+2.Masukan file kksi.sql
+3.Kemudian Klik GO
+
+Mengakses Halaman Admin
+Username: admin
+password : 123

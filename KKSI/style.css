@@ -1,0 +1,73 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+}
+body{
+	background-color: white;
+}
+
+nav{
+	position: fixed;
+	background-image: linear-gradient(121deg, rgb(2, 0, 36) 0%, rgb(61, 231, 196) 0%, rgb(26, 179, 148) 38%, rgb(111, 222, 199) 84%, rgb(66, 185, 161) 94%);
+
+}
+
+
+nav .navbar-brand{
+	color: white;
+	font-size: 30px;
+	margin: 0 0 0 10px;
+
+}
+
+nav.navbar-brand:hover{
+	color: white;
+}
+
+ul{
+	margin: 0 0 0 10px;
+	text-align: center;
+}
+ul li .home{
+	border-bottom:2px solid white;
+	color: white;
+	background-color: none ;
+}
+
+
+
+ul li a{
+	margin: 0 0 0 30px;
+	color: white;
+	font-size: 18px;
+}
+
+ul li .home2:hover{
+	color: white;
+	border-bottom: 2px solid white;
+}
+.ponsel{
+	position: relative;
+	margin: -700px 0 0 120px;
+	width: 35%;
+	height: 700px;
+	background:url(img/pon.png);
+	background-size: 100% 100%;
+}
+
+
+@media (max-width: 900px){
+	ul{
+		margin: 0 0 0 0px;
+	}
+	ul li .home{
+		background-color: white;
+		color:rgb(26, 179, 148) ;
+		border-bottom-left-radius: 20px;
+		border-top-right-radius: 20px;
+	}
+	ul li a{
+		margin: 0 0 0 0px;
+	}
+}

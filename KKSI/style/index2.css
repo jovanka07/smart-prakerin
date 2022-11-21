@@ -1,0 +1,88 @@
+/* BAGIAN SCROLL */
+html {
+    scroll-behavior: smooth;
+}
+
+.halaman_utama{
+    height: 560px;
+    background-image: url(build.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.halaman_utama_bg{
+    width: 100%;
+    height: 560px;
+    background-image: linear-gradient(#00000025, rgba(0, 0, 0, 0.883));
+    padding-top: 200px;
+}
+h3.tema{
+    font-size:45px;
+    font-weight: bold; 
+    color: white; 
+    font-family: fantasy;
+    font-style: italic;
+    text-align: center;
+}
+p.desk{
+    text-align: center;
+    color: white;
+    font-style: italic; 
+    font-size: 20px;
+}
+.button_pilihan{
+    text-align: center;
+}
+.content{
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.title-text{
+    color: black; 
+    text-align:center;
+}
+
+.content h5.judul_perusahaan{
+    margin-top: -60px;
+}
+
+.box_perusahaan{
+    width: 80%;
+    margin: auto;
+}
+.box_perusahaan .col{
+    margin-bottom: 20px;
+}
+.button_bawah{
+    margin:10px auto;
+    text-align: center;
+}
+.button_bawah a{
+    background-color: ;
+}
+@media(max-width:800px){
+    .halaman_utama{
+        height: 430px;
+        background-color: rgb(153, 153, 153);
+     }
+     .halaman_utama_bg{
+        width: 100%;
+        height: 100%;
+        padding-left: 20px;
+        padding-top:100px;
+    }
+     p.desk{
+        text-align: left;
+        color: white;
+        font-style: italic; 
+        font-size: 15px;
+    }
+    .button_pilihan{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .destination__list{
+        
+    }
+}
