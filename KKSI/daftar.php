@@ -90,7 +90,7 @@
 			</div>
 
 				<div class="form-group">
-					<label>Nama Lengkap</label>
+					<label>Nama Lengkapp</label>
 					<p style="color: grey; margin: -10px 0 0 0; font-size: 12px;"> Note: Harap Sesuai dengan Nama Asli</p>
 					<input type="text" name="nama_lengkap" class="form-control" autofocus=""
 					 placeholder="Input nama Lengkap..." required="" autofocus="">
